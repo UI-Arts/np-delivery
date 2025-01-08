@@ -1,0 +1,32 @@
+{
+    "name": "uiarts/np-delivery",
+    "description": "A Laravel package for NP delivery",
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "UIArts\\NPDelivery\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "UIArts\\NPDelivery\\Providers\\NPDeliveryServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "UI-Arts"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "halaxa/json-machine": "^1.2",
+        "elasticsearch/elasticsearch": "^7.13",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    }
+}

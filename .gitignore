@@ -1,0 +1,14 @@
+# Ignore Node and Composer dependencies
+node_modules/
+vendor/
+
+# Ignore build and cache files
+*.log
+*.cache
+*.bak
+*.tmp
+*.swp
+*.idea/
+.vscode/
+.env
+.env.*
